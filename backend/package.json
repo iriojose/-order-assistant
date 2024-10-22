@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Irio Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/graphql": "^14.5.0",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "backend": "file:",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "prisma": "^5.20.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
